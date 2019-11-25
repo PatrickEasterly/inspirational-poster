@@ -3,8 +3,25 @@
     box-sizing: border-box;
 }
 .picture-frame {
-    width: 950px;
+    width: 982px;
 }
 .picture-frame > img {
     width: 100%;
+}
+.part1, .part2 {
+    position: absolute;
+    text-align: center;
+    left: 15px;
+}
+.part2 {
+    bottom: 15px;
+}
+.poster {
+    position: relative;
+    /* any descendants with position: absolute will be in relation to .poster */
+;
+}
+h1, h2 {
+    font-size: 50px;
+    color: white;
 }
