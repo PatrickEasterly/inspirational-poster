@@ -1,0 +1,10 @@
+
+* {
+    box-sizing: border-box;
+}
+.picture-frame {
+    width: 950px;
+}
+.picture-frame > img {
+    width: 100%;
+}
