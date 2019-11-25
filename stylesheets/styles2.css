@@ -1,0 +1,14 @@
+.frame {
+    position: relative;
+    width: 1130px;
+}
+
+h1 {
+    position: absolute;
+    color: whitesmoke;
+    font-size: 108px;
+    right: 100px;
+}
+video {
+    width: 100%;
+}
